@@ -1,0 +1,40 @@
+body
+{
+	background-image: url("logo.png");
+	background-repeat: repeat;
+    background-size: 23%;
+	background-color: #e6ccff	
+}
+@media screen and (min-width: 1000px)
+{
+	body{
+	background-color: #ccffff;}
+}
+h1
+{
+	background-color: white;
+	text-align: center;
+    text-transform: uppercase;
+	text-decoration: overline;
+    color: black;
+	font-size: 230%;
+}
+a
+{
+	position: top;
+    float: center;
+    width: 90%;
+	height: 90%;
+    border: 5px solid black;
+    padding: 10px;
+	font-size: 170%;
+	font-family:"Comic Sans MS"; 
+	background-color: white;
+	line-height: 100px;
+}
+img
+{
+	height: 90%;
+	width: 50%;
+	float: left;
+}

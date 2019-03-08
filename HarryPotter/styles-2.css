@@ -1,0 +1,66 @@
+body
+{
+	background-image: url("logo.png");
+	background-repeat: repeat;
+    background-size: 23%;
+	background-color: #e6ccff	
+}
+@media screen and (min-width: 1000px)
+{
+	body{
+	background-color: #ccffff;}
+}
+article
+{
+	border:solid;
+	background-color:#66ccff;
+	color: black;
+	text-align: centre;
+	font-size: 230%;
+	width:50%;
+	height:auto;
+}
+li ul 
+{
+	visibility:hidden;
+	display: none;
+}
+li:hover ul{
+	border:solid;
+	background-color:#734d26;
+	color: #ffff99;
+	visibility: visible;
+	font-size:100%;
+	display: block;
+}
+ul
+{
+	border:solid;
+	background-color:#ffff99;
+	color: #734d26;
+	visibility: visible;
+	width:100%;
+	height:auto;
+	font-size:120%
+}
+ul li ul
+{
+	width:90%;
+	height:auto;
+}
+img
+{
+	width:20%;
+	height:auto;
+	float:right;
+}
+figcaption
+{
+	color: black;
+	float:right;
+	font-size: 100%;
+}
+p>ul
+{
+	display:flex;
+}

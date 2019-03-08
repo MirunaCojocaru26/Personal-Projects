@@ -1,0 +1,75 @@
+body
+{
+	background-image: url("castel.jpg");
+}
+img
+{
+	width:100px;
+	height:auto;
+	position:absolute;
+}
+section
+{
+	z-index:1;
+	color:white;
+	font-size: 150%
+}
+#modific
+{
+	z-index:-1;
+	height:30%;
+	width:auto;
+	left:900px;
+transform: rotate(30deg);
+transform-origin: 20% 40%;
+transition: width 2s;
+-webkit-transition: width 2s;
+}
+
+h2
+{
+	color:white;
+	border:solid;
+	background:black;
+	text-align:center;
+	position:relative;
+	height:30px;
+	width:400px;
+	left:50px;
+	top:20px;
+	-webkit-animation: mymove 5s infinite;
+	animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    0% {left:70px;}
+	5% {left:85px;}
+	10% {left:100px;}
+    15% {left:115px;}
+	20% {left:130px;}
+	25% {left:135px;}
+    30% {left:150px;}
+	35% {left:165px;}
+	40% {left:180px;}
+	45% {left:195px;}
+	50% {left:210px;}
+	55% {left:225px;}
+	60% {left:240px;}
+	65% {left:255px;}
+	70% {left:270px;}
+	75% {left:285px;}
+	80% {left:300px;}
+	85% {left:315px;}
+	90% {left:330px;}
+	95% {left:345px;}
+	100% {left:360px;}
+}
+#deaia
+{
+	display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+	width:80%;
+	height:auto;
+	
+}

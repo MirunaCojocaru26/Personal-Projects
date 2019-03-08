@@ -1,0 +1,49 @@
+body
+{
+	background-image: url("logo.png");
+	background-repeat: repeat;
+    background-size: 23%;
+	background-color: #e6ccff	
+}
+@media screen and (min-width: 1000px)
+{
+	body{
+	background-color: #ccffff;}
+}
+
+.alfabet
+{
+	width:100%;
+	height:auto;
+}
+#fixa
+{
+	position:fixed;
+	left:50px;
+	top:50px;
+	height:10%;
+	width:auto;
+	top:50px;
+	left:130px;
+}
+td
+{
+	border:solid;
+}
+tr:nth-child(even) 
+{
+    background-color: #993333;
+	font-family:"Comic Sans MS";
+	border:solid;
+}
+tr:nth-child(odd) 
+{
+   background-color: #999966;
+   font-family:"Comic Sans MS";
+}
+th
+{
+    background-color: black;
+    color: white;
+	font-family:"Comic Sans MS";
+}

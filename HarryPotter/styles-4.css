@@ -1,0 +1,65 @@
+body
+{
+	background-image: url("logo.png");
+	background-repeat: repeat;
+    background-size: 23%;
+	background-color: #e6ccff	
+}
+@media screen and (min-width: 1000px)
+{
+	body{
+	background-color: #ccffff;}
+}
+div.puoze 
+{
+    border: 1px solid #ccc;
+}
+
+div.puoze img 
+{
+    width: 100%;
+    height: auto;
+}
+
+div.nu_mai_am_idei 
+{
+    padding: 15px;
+    text-align: center;
+	background-color:#734d26;
+	color: #ffff99;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.incercare 
+{
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px) 
+{
+    .incercare {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .incercare {
+        width: 100%;
+    }
+}
+article
+{
+	border: solid;
+	padding: 10px;
+	background-color:#734d26;
+	color: #ffff99;
+	font-size:130%;
+	font-family:"Comic Sans MS";
+}

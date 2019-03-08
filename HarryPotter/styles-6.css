@@ -1,0 +1,75 @@
+body
+{
+	background-image: url("logo.png");
+	background-repeat: repeat;
+    background-size: 23%;
+	background-color: #e6ccff	
+}
+@media screen and (min-width: 1000px)
+{
+	body{
+	background-color: #ccffff;}
+}
+iframe
+{
+	width:60%;
+	height:30%;
+}
+li
+{
+	text-align:left;
+	border: solid;
+	padding: 10px;
+	background-color:#ffff99;
+	color: #734d26;
+	font-size:100%;
+	font-family:"Comic Sans MS";
+}
+a
+{
+	border: solid;
+	background-color:#ffff99;
+	color: #734d26;
+	font-size:100%;
+	font-family:"Comic Sans MS";
+}
+button
+{
+	width: 10%;
+	height:5%;
+	color: black;
+	background-color:734d26;
+	font-family:"Comic Sans MS";
+}
+#comentariu
+{
+	width: 15%;
+	height:5%;
+}
+p
+{
+	border: solid;
+	background-color:#ffff99;
+	color: #734d26;
+	font-size:100%;
+	font-family:"Comic Sans MS";
+}
+ol
+{
+display: -webkit-flex; 
+  -webkit-flex-wrap: wrap; 
+  display: flex;
+  flex-wrap: wrap;
+}
+span
+{
+	border: solid;
+	background-color:#ffff99;
+	color: #734d26;
+}
+div
+{
+	border: solid;
+	background-color:#ffff99;
+	color: #734d26;
+}

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1524208629 source:e:\alg grafuri -laborator\lfa\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+
+1524208629 source:e:\lfa - laborator\proiect 2\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+
